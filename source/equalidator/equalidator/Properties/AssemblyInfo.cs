@@ -6,7 +6,7 @@ using System.Runtime.InteropServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("equalidator")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyDescription("Easily compare object graphs for value equality in your unit tests.")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
 [assembly: AssemblyProduct("equalidator")]

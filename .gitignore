@@ -10,6 +10,7 @@ tmp/
 obj/
 unversioned/
 *.tmp
+*.nupkg
 *.bak
 *.swp
 *~.nib

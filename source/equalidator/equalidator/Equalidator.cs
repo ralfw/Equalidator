@@ -1,6 +1,8 @@
 ﻿using System;
 using equalidator.flowmodel;
 
+// How to create a NuGet package: http://blog.tomasjansson.com/creating-a-nuget-package
+
 namespace equalidator
 {
     public static class Equalidator
