@@ -12,12 +12,12 @@ namespace equalidator.flowmodel
             var a = flattenedObjects.Item1.ToArray();
             var b = flattenedObjects.Item2.ToArray();
 
-            if (a.Length != b.Length) throw new NotEqualDueToDifferentStructures();
+            if (a.Length != b.Length) throw new NotEqualDueToDifferentStructures(a.Length, b.Length);
 
             for (var i = 0; i < a.Length; i++)
             {
-                if (a[i].GetType() != b[i].GetType()) throw new NotEqualDueToDifferentTypes();
-                if (!a[i].Equals(b[i])) throw new NotEqualDueToDifferentValues();
+                if (a[i].GetType() != b[i].GetType()) throw new NotEqualDueToDifferentTypes(a[i].GetType(), b[i].GetType());
+                if (!a[i].Equals(b[i])) throw new NotEqualDueToDifferentValues(a[i], b[i]);
             }
         }
     }

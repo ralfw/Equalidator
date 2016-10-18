@@ -61,6 +61,9 @@
     <Compile Include="usagedemo\Compare_simple_types.cs" />
     <Compile Include="usagedemo\Compare_structs.cs" />
     <Compile Include="usagedemo\Compare_with_extension_method.cs" />
+    <Compile Include="usagedemo\Message_if_structures_differ.cs" />
+    <Compile Include="usagedemo\Message_if_types_differ.cs" />
+    <Compile Include="usagedemo\Message_if_values_differ.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\equalidator\equalidator.csproj">
